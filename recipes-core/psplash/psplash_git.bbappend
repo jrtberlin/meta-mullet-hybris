@@ -1,6 +1,6 @@
-FILESEXTRAPATHS:prepend:ray := "${THISDIR}/${PN}:"
+FILESEXTRAPATHS:prepend:mullet := "${THISDIR}/${PN}:"
 
-SRC_URI:append:ray += " file://0001-Disable-double-buffering.patch"
+SRC_URI:append:mullet += " file://0001-Disable-double-buffering.patch"
 
 FILESEXTRAPATHS:prepend:firefish := "${THISDIR}/${PN}:"
 

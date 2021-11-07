@@ -1,5 +1,5 @@
-FILESEXTRAPATHS:prepend:ray := "${THISDIR}/${PN}:"
-COMPATIBLE_MACHINE:ray = "ray"
+FILESEXTRAPATHS:prepend:mullet := "${THISDIR}/${PN}:"
+COMPATIBLE_MACHINE:mullet = "mullet"
 
 FILESEXTRAPATHS:prepend:firefish := "${THISDIR}/${PN}:"
 COMPATIBLE_MACHINE:firefish = "firefish"

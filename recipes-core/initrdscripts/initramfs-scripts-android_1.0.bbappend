@@ -1,11 +1,11 @@
-FILESEXTRAPATHS:prepend:ray := "${THISDIR}/${PN}:"
-COMPATIBLE_MACHINE:ray = "ray"
+FILESEXTRAPATHS:prepend:mullet := "${THISDIR}/${PN}:"
+COMPATIBLE_MACHINE:mullet = "mullet"
 
-RDEPENDS:${PN}:append:ray += "msm-fb-refresher"
+RDEPENDS:${PN}:append:mullet += "msm-fb-refresher"
 
-SRC_URI:append:ray += " file://init.machine.sh"
+SRC_URI:append:mullet += " file://init.machine.sh"
 
-do_install:append:ray() {
+do_install:append:mullet() {
     install -m 0755 ${WORKDIR}/init.machine.sh ${D}/init.machine
 }
 
