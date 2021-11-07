@@ -13,7 +13,6 @@ SRC_URI = "git://android.googlesource.com/kernel/msm;branch=android-msm-mullet-3
     file://img_info \
     file://0001-scripts-dtc-Remove-redundant-YYLOC-global-declaratio.patch \
     file://0002-ARM-uaccess-remove-put_user-code-duplication.patch \
-    file://0003-touchscreen-mulletdium-Add-delay-for-wakeup-report.patch \
 "
 
 SRCREV = "b7157db4217f9ef1c5a4c9ef45ec35913ca77a88"
