@@ -16,7 +16,7 @@ SRC_URI = "git://android.googlesource.com/kernel/msm;branch=android-msm-mullet-3
     file://0003-touchscreen-mulletdium-Add-delay-for-wakeup-report.patch \
 "
 
-SRCREV = "ceb81fda35a733c904776eaaabd72dddf1e603c9"
+SRCREV = "b7157db4217f9ef1c5a4c9ef45ec35913ca77a88"
 LINUX_VERSION ?= "3.18"
 PV = "${LINUX_VERSION}+oreo"
 S = "${WORKDIR}/git"
